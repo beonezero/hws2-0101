@@ -1,11 +1,14 @@
 .App {
     --header_height: 60px;
+;
 }
 
 .hw {
-
+    max-width: 1230px;
+    margin: 0 auto;
+    padding: 15px
 }
 
 .hwTitle {
-
+    padding: 20px
 }
