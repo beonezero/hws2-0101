@@ -1,36 +1,55 @@
 .button {
+    padding: 10px 30px;
+    color: white;
+    background-color: #0066cc;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 700;
+    font-family: Charter;
+    cursor: pointer;
 }
 
 .disabled {
-}
-
-.secondary {
-}
-
-.default {
+    opacity: 0.5;
 }
 
 .red {
+    background-color: red;
 }
 
-.default:hover {
+.default {
+    background-color: #93caff;
+}
+
+.secondary {
+    background-color: white;
+    color: #0066cc;
 }
 
 .red:hover {
+    opacity: 0.7;
 }
-
+.default:hover {
+    border-color: red;
+}
 .secondary:hover {
+    background-color: #eeeeee;
 }
 
-
-.default:active {
-}
-
-.secondary:active {
-}
 
 .red:active {
+    background-color: #ffb1b1;
+    color: black;
+}
+.default:active {
+}
+.secondary:active {
+    background-color: #a6a6a6;
+    color: white;
 }
 
+
+
 .button:disabled {
+    cursor: not-allowed;
 }
