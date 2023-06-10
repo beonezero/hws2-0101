@@ -48,8 +48,6 @@
     color: white;
 }
 
-
-
 .button:disabled {
     cursor: not-allowed;
 }
