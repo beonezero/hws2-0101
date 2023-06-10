@@ -17,9 +17,6 @@
     background-color: red;
 }
 
-.default {
-    background-color: #93caff;
-}
 
 .secondary {
     background-color: white;
@@ -41,8 +38,7 @@
     background-color: #ffb1b1;
     color: black;
 }
-.default:active {
-}
+
 .secondary:active {
     background-color: #a6a6a6;
     color: white;
@@ -50,4 +46,7 @@
 
 .button:disabled {
     cursor: not-allowed;
+    background-color: #93caff;
+    color: white;
+    opacity: 1;
 }
