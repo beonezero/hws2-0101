@@ -1,7 +1,10 @@
 .radio {
+    margin-right: 5px;
+    color: black;
 }
 
 .radio::before {
+    background-color: black;
 }
 
 
@@ -9,6 +12,8 @@
 }
 
 .label {
+    display: flex;
+    margin-bottom: 20px;
 }
 
 .options {
